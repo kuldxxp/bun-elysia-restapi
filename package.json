@@ -1,6 +1,6 @@
 {
   "name": "bun-elysia-restapi",
-  "module": "index.ts",
+  "module": "src/index.ts",
   "type": "module",
   "private": true,
   "devDependencies": {
@@ -8,5 +8,12 @@
   },
   "peerDependencies": {
     "typescript": "^5"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "elysia": "latest"
+  },
 }
